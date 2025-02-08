@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root{
+    --fonte1: 'Passion One', 'cursive';
+    --fonte2: Verdana, Geneva, tahoma sans-serif;
+    --fonte3: 'Sriracha', 'cursive';
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: antiquewhite;
+    font-family: var(--fonte2);
+
+}
+
+header{
+    font-family: var(--fonte1);
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    font-size: 10vw;
+    padding-top: 50px;
+    font-variant: small-caps;
+    margin-bottom: 10px;
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    color: rgb(253, 223, 223);
+    text-decoration: underline;
+}
+
+section{
+    font-size: 3.5vw;
+    font-family: var(--fonte3);
+    padding-top: 10%;
+    padding-bottom: 10%;
+    line-height: 2em;
+    padding-left: 35px;}
+
+section > p{
+    padding-bottom : 2em;
+}
+
+
+
+section.normal{
+    background-color: rgb(226, 219, 226);
+}
+
+section.imagem{
+    color: white;
+    box-shadow: inset 6px 6px 6px rgba(0, 0, 0, 0.521);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.199);
+    text-shadow: 2px 2px 2px black;
+    display: inline-block;
+    padding: 5px;
+    color: white;
+}
+
+section#imagem1{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    
+
+}
+
+
+section#imagem2{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
