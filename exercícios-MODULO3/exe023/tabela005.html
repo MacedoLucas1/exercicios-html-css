@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de tabelas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;;
+        }
+        table {
+            width: 100%;
+            text-align: left;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            padding: 10px;
+            border: 1px solid black;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        th {
+            text-align: center;
+        }
+        col.cnome{
+            background-color: antiquewhite;
+        }
+        col.csexo{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de tabelas</h1>
+    <table>
+        <colgroup>
+        <col class="cnome">
+        <col class="csexo" span="2">
+        <col class="cidade">
+        <col class="cprof">
+        </colgroup>
+
+        <caption>Cadastro</caption>
+        <th>nome</th>
+        <th>sexo</th>
+        <th>idade</th>
+        <th>profissão</th>
+        <tr>
+            <td>João</td>
+            <td>Masculino</td>
+            <td>25</td>
+            <td>Programador</td>
+            
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>Feminino</td>
+            <td>30</td>
+            <td>Analista</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>Masculino</td>
+            <td>35</td>
+            <td>Gerente</td>
+        </tr>
+        <tr>
+            <td>Julia</td>
+            <td>Feminino</td>
+            <td>40</td>
+            <td>Coordenadora</td>
+        </tr>
+        <tr>
+            <td>Lucas</td>
+            <td>Masculino</td>
+            <td>45</td>
+            <td>Analista</td>
+        </tr>
+        <tr>
+            <td>Paula</td>
+            <td>Feminino</td>
+            <td>50</td>
+            <td>Gerente</td>
+        </tr>
+        <tr>
+            <td>Roberto</td>
+            <td>Masculino</td>
+            <td>55</td>
+            <td>Coordenador</td>
+        </tr>
+    </table>
+</body>
+</html>
